@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 40px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+h1 {
+  margin: 0 0 30px;
+  color: #fff;
+  font-family: "Jua", sans-serif;
+  font-size: 42px;
+}
+.card {
+  position: relative;
+  width: 260px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(255, 193, 7, 0.6);
+}
+.poster {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #ffc107;
+  color: #222;
+  font-family: "Jua", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.info {
+  padding: 16px;
+}
+.info h2 {
+  margin: 0 0 4px;
+  font-family: "Jua", sans-serif;
+  font-size: 24px;
+}
+.year {
+  margin: 0 0 12px;
+  color: #777;
+  font-size: 14px;
+}
+.overview {
+  margin: 0;
+  color: #444;
+  font-size: 14px;
+  line-height: 1.6;
+}
+footer {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.6;
+}
+footer p {
+  margin: 6px 0;
+}
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
